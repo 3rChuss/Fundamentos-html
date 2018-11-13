@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta author="Jesús Abril">
+    <meta version="1.0">
+    <title>Educacion - Evaluacion Final</title>
+  </head>
+  <body>
+    <header id="educacion"> <!--header con link-->
+      <img src="img/logo.svg" alt="Logo SVG" title="Logo Evaluacion Final">
+      <h1>Resumen circular</h1>
+    </header>
+    <h2>Datos personales</h2>
+    <h3>Jesús Abril</h3>
+    <h3>1990 - Granada</h3>
+    <nav> <!--menu ejercicio-->
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="experiencia.html">Expeciencia</a></li>
+      </ul>
+   </nav>
+    <h2>Educación</h2>
+    <table cellpadding="10" border="1"> <!--tabla con separacion para que se vea correctamente cuadrada-->
+      <tr>
+        <th>Año</th>
+        <th>Instituto</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+      <tr>
+        <td>2006</td>
+        <td>Fr. Ayala</td>
+        <td>Granada</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2010</td>
+        <td>Zaidin Vergeles</td>
+        <td>Granada</td>
+        <td>Si</td>
+      </tr>
+    </table>
+    <h2>Agregar Estudios</h2>
+    <form method="post"> <!--formulario principal.-->
+      <label for="ano">Año</label>
+      <select name="ano">
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+      </select>
+      <br>
+      <label for="institucion">Institución</label>
+      <input type="text" name="institucion" value="" required><br>
+      <label for="lugar">Lugar</label>
+      <input type="text" name="lugar" required><br>
+      <input type="button" name="enviar" value="Enviar">
+    </form>
+    <footer>
+      <p>Más información: <a href="mailto:jesus.abrilm@gmail.com">jesus.abrilm@gmail.com | <a href="tel:622085454">622 085 454</p>
+      <p><a href="https://www.facebook.com/jesus.abrilminan">Facebook</a>| <a href="https://twitter.com/3rChuss">Twitter</a> | <a href="https://www.instagram.com/jesus_abmi/">Instagram</a></p>
+    </footer>
+  </body>
+</html>
